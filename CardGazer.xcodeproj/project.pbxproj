@@ -1,0 +1,412 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		95AFA11A19DFE46D0030B37C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AFA11919DFE46D0030B37C /* AppDelegate.swift */; };
+		95AFA11C19DFE46D0030B37C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AFA11B19DFE46D0030B37C /* ViewController.swift */; };
+		95AFA11E19DFE46D0030B37C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 95AFA11D19DFE46D0030B37C /* Images.xcassets */; };
+		95AFA12119DFE46D0030B37C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 95AFA11F19DFE46D0030B37C /* Main.storyboard */; };
+		95AFA12D19DFE46D0030B37C /* CardGazerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 95AFA12C19DFE46D0030B37C /* CardGazerTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		95AFA12719DFE46D0030B37C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 95AFA10C19DFE46D0030B37C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 95AFA11319DFE46D0030B37C;
+			remoteInfo = CardGazer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		95AFA11419DFE46D0030B37C /* CardGazer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CardGazer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AFA11819DFE46D0030B37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AFA11919DFE46D0030B37C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		95AFA11B19DFE46D0030B37C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		95AFA11D19DFE46D0030B37C /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		95AFA12019DFE46D0030B37C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		95AFA12619DFE46D0030B37C /* CardGazerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CardGazerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		95AFA12B19DFE46D0030B37C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		95AFA12C19DFE46D0030B37C /* CardGazerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardGazerTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		95AFA11119DFE46D0030B37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AFA12319DFE46D0030B37C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		95AFA10B19DFE46D0030B37C = {
+			isa = PBXGroup;
+			children = (
+				95AFA11619DFE46D0030B37C /* CardGazer */,
+				95AFA12919DFE46D0030B37C /* CardGazerTests */,
+				95AFA11519DFE46D0030B37C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		95AFA11519DFE46D0030B37C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				95AFA11419DFE46D0030B37C /* CardGazer.app */,
+				95AFA12619DFE46D0030B37C /* CardGazerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		95AFA11619DFE46D0030B37C /* CardGazer */ = {
+			isa = PBXGroup;
+			children = (
+				95AFA11919DFE46D0030B37C /* AppDelegate.swift */,
+				95AFA11B19DFE46D0030B37C /* ViewController.swift */,
+				95AFA11D19DFE46D0030B37C /* Images.xcassets */,
+				95AFA11F19DFE46D0030B37C /* Main.storyboard */,
+				95AFA11719DFE46D0030B37C /* Supporting Files */,
+			);
+			path = CardGazer;
+			sourceTree = "<group>";
+		};
+		95AFA11719DFE46D0030B37C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95AFA11819DFE46D0030B37C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		95AFA12919DFE46D0030B37C /* CardGazerTests */ = {
+			isa = PBXGroup;
+			children = (
+				95AFA12C19DFE46D0030B37C /* CardGazerTests.swift */,
+				95AFA12A19DFE46D0030B37C /* Supporting Files */,
+			);
+			path = CardGazerTests;
+			sourceTree = "<group>";
+		};
+		95AFA12A19DFE46D0030B37C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				95AFA12B19DFE46D0030B37C /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		95AFA11319DFE46D0030B37C /* CardGazer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AFA13019DFE46D0030B37C /* Build configuration list for PBXNativeTarget "CardGazer" */;
+			buildPhases = (
+				95AFA11019DFE46D0030B37C /* Sources */,
+				95AFA11119DFE46D0030B37C /* Frameworks */,
+				95AFA11219DFE46D0030B37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CardGazer;
+			productName = CardGazer;
+			productReference = 95AFA11419DFE46D0030B37C /* CardGazer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		95AFA12519DFE46D0030B37C /* CardGazerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 95AFA13319DFE46D0030B37C /* Build configuration list for PBXNativeTarget "CardGazerTests" */;
+			buildPhases = (
+				95AFA12219DFE46D0030B37C /* Sources */,
+				95AFA12319DFE46D0030B37C /* Frameworks */,
+				95AFA12419DFE46D0030B37C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				95AFA12819DFE46D0030B37C /* PBXTargetDependency */,
+			);
+			name = CardGazerTests;
+			productName = CardGazerTests;
+			productReference = 95AFA12619DFE46D0030B37C /* CardGazerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		95AFA10C19DFE46D0030B37C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = Igneus;
+				TargetAttributes = {
+					95AFA11319DFE46D0030B37C = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					95AFA12519DFE46D0030B37C = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 95AFA11319DFE46D0030B37C;
+					};
+				};
+			};
+			buildConfigurationList = 95AFA10F19DFE46D0030B37C /* Build configuration list for PBXProject "CardGazer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 95AFA10B19DFE46D0030B37C;
+			productRefGroup = 95AFA11519DFE46D0030B37C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				95AFA11319DFE46D0030B37C /* CardGazer */,
+				95AFA12519DFE46D0030B37C /* CardGazerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		95AFA11219DFE46D0030B37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AFA11E19DFE46D0030B37C /* Images.xcassets in Resources */,
+				95AFA12119DFE46D0030B37C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AFA12419DFE46D0030B37C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		95AFA11019DFE46D0030B37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AFA11C19DFE46D0030B37C /* ViewController.swift in Sources */,
+				95AFA11A19DFE46D0030B37C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95AFA12219DFE46D0030B37C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				95AFA12D19DFE46D0030B37C /* CardGazerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		95AFA12819DFE46D0030B37C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 95AFA11319DFE46D0030B37C /* CardGazer */;
+			targetProxy = 95AFA12719DFE46D0030B37C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		95AFA11F19DFE46D0030B37C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				95AFA12019DFE46D0030B37C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		95AFA12E19DFE46D0030B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		95AFA12F19DFE46D0030B37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		95AFA13119DFE46D0030B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CardGazer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		95AFA13219DFE46D0030B37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = CardGazer/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		95AFA13419DFE46D0030B37C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardGazerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardGazer.app/Contents/MacOS/CardGazer";
+			};
+			name = Debug;
+		};
+		95AFA13519DFE46D0030B37C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				COMBINE_HIDPI_IMAGES = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = CardGazerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CardGazer.app/Contents/MacOS/CardGazer";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		95AFA10F19DFE46D0030B37C /* Build configuration list for PBXProject "CardGazer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AFA12E19DFE46D0030B37C /* Debug */,
+				95AFA12F19DFE46D0030B37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		95AFA13019DFE46D0030B37C /* Build configuration list for PBXNativeTarget "CardGazer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AFA13119DFE46D0030B37C /* Debug */,
+				95AFA13219DFE46D0030B37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		95AFA13319DFE46D0030B37C /* Build configuration list for PBXNativeTarget "CardGazerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				95AFA13419DFE46D0030B37C /* Debug */,
+				95AFA13519DFE46D0030B37C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 95AFA10C19DFE46D0030B37C /* Project object */;
+}
